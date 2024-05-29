@@ -2,13 +2,13 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-md-5">
+                <div class="col-sm-4">
                     <?php dynamic_sidebar('footer-sidebar-1'); ?>
                 </div>
-                <div class="col-md-4">
+                <div class="col-sm-4">
                     <?php dynamic_sidebar('footer-sidebar-2'); ?>
                 </div>
-                <div class="col-md-3">
+                <div class="col-sm-4">
                     <?php dynamic_sidebar('footer-sidebar-3'); ?>
                 </div>
             </div>
@@ -17,5 +17,6 @@
 <?php endif; ?>
 
 <div class="sub-footer">
-    <?php // venue_copyright_option(); ?>
+    <?php // venue_copyright_option(); 
+    ?>
 </div>

@@ -1,5 +1,5 @@
  <!-- page footer  -->
- <!-- <div class="container-fluid bg-dark text-light has-height-md middle-items border-top text-center wow fadeIn">
+ <div class="container-fluid bg-dark text-light has-height-md middle-items border-top text-center wow fadeIn">
      <div class="row">
          <div class="col-sm-4">
              <h3>EMAIL US</h3>
@@ -17,10 +17,8 @@
  </div>
  <div class="bg-dark text-light text-center border-top wow fadeIn">
      <p class="mb-0 py-3 text-muted small">&copy; Copyright 2024 Made with <i class="ti-heart text-danger"></i> By <a href="#">DevCRUD</a></p>
- </div> -->
+ </div>
  <!-- end of page footer -->
-
- <?php food_footer(); ?>
  <?php wp_footer(); ?>
  </body>
 

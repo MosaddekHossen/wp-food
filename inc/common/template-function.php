@@ -27,28 +27,28 @@ function food_footer_widget()
         'name'          => __('Footer Widget 01', 'food'),
         'id'            => 'footer-sidebar-1',
         'description'   => __('Widgets in this area will be shown on footer.', 'food'),
-        'before_widget' => '<div id="%1$s" class="about-veno %2$s">',
+        'before_widget' => '<div id="%1$s" class="text-muted %2$s">',
         'after_widget'  => '</div>',
-        'before_title'  => '<h4>',
-        'after_title'   => '</h4>',
+        'before_title'  => '<p>',
+        'after_title'   => '</p>',
     ));
     register_sidebar(array(
         'name'          => __('Footer Widget 02', 'food'),
         'id'            => 'footer-sidebar-2',
         'description'   => __('Widgets in this area will be shown on footer.', 'food'),
-        'before_widget' => '<div id="%1$s" class="useful-links %2$s">',
+        'before_widget' => '<div id="%1$s" class="text-muted %2$s">',
         'after_widget'  => '</div>',
-        'before_title'  => '<div class="footer-heading"><h4>',
-        'after_title'   => '</h4></div>',
+        'before_title'  => '<div class="footer-heading"><p>',
+        'after_title'   => '</p></div>',
     ));
     register_sidebar(array(
         'name'          => __('Footer Widget 03', 'food'),
         'id'            => 'footer-sidebar-3',
         'description'   => __('Widgets in this area will be shown on footer.', 'food'),
-        'before_widget' => '<div id="%1$s" class="contact-info %2$s">',
+        'before_widget' => '<div id="%1$s" class="text-muted %2$s">',
         'after_widget'  => '</div>',
-        'before_title'  => '<div class="footer-heading"><h4>',
-        'after_title'   => '</h4></div>',
+        'before_title'  => '<div class="footer-heading"><p>',
+        'after_title'   => '</p></div>',
     ));
 }
 add_action('widgets_init', 'food_footer_widget');
