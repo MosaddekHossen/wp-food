@@ -14,3 +14,7 @@ Text Domain: food
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
+
+body .text-muted .textwidget h3 {
+  color: #f8f9fa !important;
+}
