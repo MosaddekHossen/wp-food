@@ -58,5 +58,13 @@ function theme_setup()
 }
 add_action('after_setup_theme', 'theme_setup');
 
+// food_footer
+function food_footer()
+{
+    get_template_part('/inc/template-parts/footer/footer');
+}
+
 // nec files
 include_once('inc/common/scripts.php');
+include_once('inc/food-kirki.php');
+include_once('inc/common/template-function.php');
