@@ -55,6 +55,8 @@ function theme_setup()
         'flex-width' => true,
         'header-text' => array('site-title', 'site-description'),
     ));
+
+    remove_theme_support('widgets-block-editor');
 }
 add_action('after_setup_theme', 'theme_setup');
 
