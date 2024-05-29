@@ -17,5 +17,5 @@
 <?php endif; ?>
 
 <div class="bg-dark text-light text-center border-top wow fadeIn">
-    <p class="mb-0 py-3 text-muted small"><?php food_copyright_option(); ?></a></p>
+    <?php food_copyright_option(); ?>
 </div>
