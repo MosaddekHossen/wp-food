@@ -17,6 +17,5 @@
 <?php endif; ?>
 
 <div class="sub-footer">
-    <?php // venue_copyright_option(); 
-    ?>
+    <?php food_copyright_option(); ?>
 </div>

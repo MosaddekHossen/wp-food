@@ -60,6 +60,15 @@ function theme_setup()
 }
 add_action('after_setup_theme', 'theme_setup');
 
+// food_copyright_option
+function food_copyright_option()
+{
+    $food_copyright = get_theme_mod('food_copyright_id', __('&copy; Copyright 2024 Made with <i class="ti-heart text-danger"></i> By <a href="#">DevCRUD', 'food'));
+?>
+    <p><?php echo wp_kses_post($food_copyright); ?></p>
+<?php
+}
+
 // food_footer
 function food_footer()
 {
