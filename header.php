@@ -30,7 +30,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav">
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a class="nav-link" href="#home">Home</a>
                 </li>
                 <li class="nav-item">
@@ -41,13 +41,14 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#book-table">Book-Table</a>
-                </li>
+                </li> -->
+                <?php echo food_menu(); ?>
             </ul>
             <a class="navbar-brand m-auto" href="index.html">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/logo.svg" class="brand-img" alt="">
                 <span class="brand-txt">Food Hut</span>
             </a>
-            <ul class="navbar-nav">
+            <!-- <ul class="navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link" href="blog.html">Blog<span class="sr-only">(current)</span></a>
                 </li>
@@ -60,7 +61,8 @@
                 <li class="nav-item">
                     <a href="components.html" class="btn btn-primary ml-xl-4">Components</a>
                 </li>
-            </ul>
+            </ul> -->
+            <?php echo food_menu(); ?>
         </div>
     </nav>
 
