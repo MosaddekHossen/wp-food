@@ -2,9 +2,9 @@
 // food_logo
 function food_logo()
 {
-    $food_logo = get_theme_mod('food_header_logo', get_template_directory_uri() . '/img/logo.png');
+    $food_logo = get_theme_mod('food_header_logo', get_template_directory_uri() . '/assets/imgs/logo.svg');
 ?>
-    <a href="<?php echo esc_url(home_url('/')); ?>"><img src="<?php echo esc_url($food_logo); ?>" alt="<?php echo bloginfo(); ?>"></a>
+    <a href="<?php echo esc_url(home_url('/')); ?>"><img class="navbar-brand m-auto" src="<?php echo esc_url($food_logo); ?>" alt="<?php echo bloginfo(); ?>"></a>
 <?php
 }
 
@@ -15,7 +15,20 @@ function food_menu()
         array(
             'theme_location'  => 'main-menu',
             'container'       => 'false',
-            'menu_class'      => 'nav menu',
+            'menu_class'      => 'navbar-nav',
+
+        )
+    );
+}
+
+function food_menu2()
+{
+    wp_nav_menu(
+        array(
+            'theme_location'  => 'main-menu',
+            'container'       => false,
+            'menu_class'      => 'collapse navbar-collapse',
+            'menu_id'         => 'navbarSupportedContent'
         )
     );
 }

@@ -44,12 +44,12 @@
                 </li> -->
                 <?php echo food_menu(); ?>
             </ul>
-            <a class="navbar-brand m-auto" href="index.html">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/logo.svg" class="brand-img" alt="">
-                <span class="brand-txt">Food Hut</span>
+            <!-- <a  href="index.html"> -->
+                <?php food_logo(); ?>
+                <!-- <span class="brand-txt">Food Hut</span> -->
             </a>
-            <!-- <ul class="navbar-nav">
-                <li class="nav-item">
+            <ul class="navbar-nav">
+                <!-- <li class="nav-item">
                     <a class="nav-link" href="blog.html">Blog<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
@@ -60,9 +60,9 @@
                 </li>
                 <li class="nav-item">
                     <a href="components.html" class="btn btn-primary ml-xl-4">Components</a>
-                </li>
-            </ul> -->
-            <?php echo food_menu(); ?>
+                </li> -->
+                <?php echo food_menu2(); ?>
+            </ul>
         </div>
     </nav>
 

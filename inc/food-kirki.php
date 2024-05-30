@@ -27,7 +27,7 @@ function food_header_logo()
             'label'       => esc_html__('food header logo', 'food'),
             'description' => esc_html__('The saved value will be the URL.', 'food'),
             'section'     => 'logo_section_id',
-            'default'     => get_template_directory_uri() . '/img/logo.png',
+            'default'     => get_template_directory_uri() . '/assets/imgs/logo.svg',
         ]
     );
 }

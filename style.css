@@ -18,3 +18,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 body .text-muted .textwidget h3 {
   color: #f8f9fa !important;
 }
+
+img {
+  width: 100%;
+}
