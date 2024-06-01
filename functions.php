@@ -56,6 +56,14 @@ function theme_setup()
         'header-text' => array('site-title', 'site-description'),
     ));
 
+    // register_nav_menu
+    register_nav_menus(
+        array(
+            'menu-right' => __('Menu right', 'food'),
+            'menu-left' => __('Menu left', 'food'),
+        )
+    );
+
     remove_theme_support('widgets-block-editor');
 }
 add_action('after_setup_theme', 'theme_setup');

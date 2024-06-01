@@ -22,3 +22,15 @@ body .text-muted .textwidget h3 {
 img {
   width: 100%;
 }
+
+.menu-item {
+  display: block;
+  padding: 0.5rem 1rem;
+}
+
+.menu-item > a {
+  color: #fff;
+  padding-right: 0.7rem;
+  padding-left: 0.7rem;
+  font-weight: 700;
+}

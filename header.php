@@ -29,40 +29,11 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav">
-                <!-- <li class="nav-item">
-                    <a class="nav-link" href="#home">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="menu.html">Menu</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#book-table">Book-Table</a>
-                </li> -->
-                <?php echo food_menu(); ?>
-            </ul>
+            <?php echo food_menu_right(); ?>
             <!-- <a  href="index.html"> -->
-                <?php food_logo(); ?>
-                <!-- <span class="brand-txt">Food Hut</span> -->
-            </a>
-            <ul class="navbar-nav">
-                <!-- <li class="nav-item">
-                    <a class="nav-link" href="blog.html">Blog<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#testmonial">Reviews</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact Us</a>
-                </li>
-                <li class="nav-item">
-                    <a href="components.html" class="btn btn-primary ml-xl-4">Components</a>
-                </li> -->
-                <?php echo food_menu2(); ?>
-            </ul>
+            <?php food_logo(); ?>
+            <!-- <span class="brand-txt">Food Hut</span> -->
+            <?php echo food_menu_left(); ?>
         </div>
     </nav>
 
